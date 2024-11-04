@@ -1,0 +1,64 @@
+.hero__wrapper {
+display: flex;
+gap: 20px;
+justify-content: space-between;
+align-items: center;
+
+
+@media (max-width: 1000px) {
+  flex-direction: column-reverse;
+  
+}
+
+img {
+    width: 450px;
+
+
+    @media (max-width: 1000px) {
+      width: 350px;
+    }
+}
+
+}
+
+.hero__box {
+display: flex;
+flex-direction: column;
+gap: 40px;
+width: 440px;
+
+
+@media (max-width: 1000px) {
+  width: 350px;
+  align-items: center;
+}
+
+h2 {
+    font-size: 48px;
+    color: #272D38; 
+
+    @media (max-width: 1000px) {
+      text-align: center;
+      font-size: 32px;
+    }
+}
+
+p {
+    font-size: 22px;
+    color: #667085;    
+    
+    @media (max-width: 1000px) {
+        text-align: center;
+        font-size: 14px;
+      }
+}
+
+
+img {
+    width: 20px;
+
+    @media (max-width: 1000px) {
+      rotate: 90deg;
+    }
+}
+}
